@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+# 个人 API Key（勿提交/外发）
+src/config/secrets.ts
+
+# benchmark 打包产物（改版后重跑才生成；Key 请走 MIMO_KEY 环境变量）
+scripts/bench/router.mjs
+scripts/bench/*.jsonl
+
